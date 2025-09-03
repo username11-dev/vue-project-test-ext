@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie Cleaner",
+  "version": "1.0.0",
+  "description": "A simple extension to clear cookies on the current site.",
+  "permissions": ["cookies", "activeTab", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
